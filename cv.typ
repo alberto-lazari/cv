@@ -8,12 +8,13 @@
   "experience",
   "volunteering",
   "certifications",
+  "honors",
   "skills",
 )
 #for module in modules {
-  v(1.5em)
+  v(1.3em)
   autoImport(module)
-  v(1.5em)
+  v(1.3em)
 }
 
 #cvFooter()

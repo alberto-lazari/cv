@@ -1,6 +1,6 @@
 #import "../brilliant-CV/template.typ": *
 
-#cvSection("Certifications")
+#cvSection("Certifications", letters: 4)
 
 #cvHonor(
   date: [January 2023],

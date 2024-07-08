@@ -2,6 +2,11 @@
 
 #cvSection("Skills")
 
+#let cvSkill = (..args) => {
+  cvSkill(..args)
+  v(.3em)
+}
+
 #cvSkill(
   type: [Prog Langs],
   info: [Java #hBar() Shell #hBar() Ruby #hBar() Kotlin #hBar() Python #hBar() C++ #hBar() OCaml]
