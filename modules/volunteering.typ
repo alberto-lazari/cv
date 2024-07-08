@@ -14,7 +14,7 @@
 #cvEntry(
   title: [Blood Donor],
   society: [Avis],
-  date: [Mar 2021 - Present],
+  date: [Aug 2023 - Present],
   logo: "../images/avis.jpg",
   description: none,
   location: none,
