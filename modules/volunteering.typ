@@ -8,6 +8,7 @@
   date: [Mar 2021 - Present],
   logo: "../images/agesci.png",
   description: none,
+  location: none,
 )
 
 #cvEntry(
@@ -16,4 +17,5 @@
   date: [Mar 2021 - Present],
   logo: "../images/avis.jpg",
   description: none,
+  location: none,
 )
