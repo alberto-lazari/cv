@@ -3,10 +3,17 @@
 
 #cvHeader(hasPhoto: false, align: center)
 
-#autoImport("education")
-#autoImport("experience")
-#autoImport("volunteering")
-#autoImport("certifications")
-#autoImport("skills")
+#let modules = (
+  "education",
+  "experience",
+  "volunteering",
+  "certifications",
+  "skills",
+)
+#for module in modules {
+  v(1.5em)
+  autoImport(module)
+  v(1.5em)
+}
 
 #cvFooter()
