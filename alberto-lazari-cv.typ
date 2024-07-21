@@ -1,10 +1,10 @@
-#import "/common.typ": *
+#import "common.typ": *
 
 // Treat headings as sections
 #show heading.where(level: 1): it => section(it.body.text)
 
 #show: cv
-#import-modules(
+#modules(
   "education",
   "experience",
   "volunteering",

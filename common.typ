@@ -1,4 +1,4 @@
-#import "@preview/brilliant-cv:2.0.0": cv, awesomeColors, cvSection, cvEntry, cvHonor, cvSkill, hBar
+#import "@preview/brilliant-cv:2.0.0": cv, cvSection, cvEntry, cvHonor, cvSkill, hBar
 
 #let metadata = toml("/metadata.toml")
 
@@ -9,7 +9,7 @@
   v(.2em)
 }
 
-#let import-modules(lang: metadata.language, ..args) = {
+#let modules(lang: metadata.language, ..args) = {
   for module in args.pos() {
     include {
       "modules_" + lang + "/" + module + ".typ"
