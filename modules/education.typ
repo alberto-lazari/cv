@@ -5,7 +5,7 @@
 #cvEntry(
   title: [Master of Science, Computer Science],
   society: [University of Padua],
-  date: [Oct 2018 - Present],
+  date: [Oct 2022 - Present],
   location: none,
   logo: "../images/unipd.png",
   description: [Major: Programming Languages and Systems #v(0em) ],
