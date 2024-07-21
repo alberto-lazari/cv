@@ -1,8 +1,7 @@
-#import "../brilliant-CV/template.typ": *
+#import "/common.typ": *
 
-#cvSection("Honors")
-
-#cvHonor(
+= Honors
+#honor(
   date: [November 2020],
   title: [Scholarship “Mille e una lode”],
   issuer: [

@@ -1,9 +1,10 @@
-#import "brilliant-CV/template.typ": *
-#show: layout
+#import "/common.typ": *
 
-#cvHeader(hasPhoto: false, align: center)
+// Treat headings as sections
+#show heading.where(level: 1): it => section(it.body.text)
 
-#let modules = (
+#show: cv
+#import-modules(
   "education",
   "experience",
   "volunteering",
@@ -11,10 +12,3 @@
   "honors",
   "skills",
 )
-#for module in modules {
-  v(1.3em)
-  autoImport(module)
-  v(1.3em)
-}
-
-#cvFooter()

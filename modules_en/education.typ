@@ -1,23 +1,21 @@
-#import "../brilliant-CV/template.typ": *
+#import "/common.typ": *
+#let unipd-logo = image("/images/unipd.png")
 
-#cvSection("Education")
-
-#cvEntry(
+= Education
+#entry(
   title: [Master of Science, Computer Science],
   society: [University of Padua],
   date: [Oct 2022 - Present],
-  location: none,
-  logo: "../images/unipd.png",
-  description: [Major: Programming Languages and Systems #v(0em) ],
+  logo: unipd-logo,
+  description: [Major: Programming Languages and Systems],
   tags: ("OCaml", "Android Security", "Java", "Python", "Typst"),
 )
 
-#cvEntry(
+#entry(
   title: [Bachelor of Science, Informatica (Computer Science)],
   society: [University of Padua],
   date: [Oct 2019 - Jul 2022],
-  location: none,
-  logo: "../images/unipd.png",
-  description: [Grade: 110 cum laude #v(0em) ],
+  logo: unipd-logo,
+  description: [Grade: 110 cum laude],
   tags: ("Qt", "C++", "Java", "Spring Boot", "Git"),
 )
