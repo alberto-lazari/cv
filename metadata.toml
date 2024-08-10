@@ -15,7 +15,7 @@ cv_footer = "Curriculum vitae"
 letter_footer = "Cover letter"
 
 [layout]
-awesome_color = "skyblue"
+awesome_color = "#0055ff"
 
 before_section_skip = "1.2em"
 before_entry_skip = ".5em"

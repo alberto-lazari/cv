@@ -1,6 +1,6 @@
 # My CV
 
-My personal Curriculum Vitae, made with the [Brilliant CV](https://github.com/mintyfrankie/brilliant-CV) [Typst](https://github.com/typst/typst) template
+My personal Curriculum Vitae, made with the [Brilliant CV](https://typst.app/universe/package/brilliant-cv) template
 
 PDF is available [here](https://github.com/alberto-lazari/cv/tree/main/alberto-lazari-cv.pdf)
 
